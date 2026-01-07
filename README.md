@@ -43,6 +43,54 @@ python python_ml/ml_csv_test.py
 --
 
 
+---
+
+## Key Code Snippets
+
+### Data Handling (Pandas & NumPy)
+```python
+import pandas as pd
+
+data = pd.read_csv("data/sample.csv")
+print(data.head())
+print(data.describe())
+
+--
+
+#machine learning model (scikit-learn)
+
+from sklearn.linear_model import LogisticRegression
+model = LogisticRegression()
+model.fit(X_train, y_train)
+
+risk_probability = model.predict_proba(test_case_scaled)[0][1]
+print("Risk Probability:", risk_probability)
+
+--
+
+#risk level logic
+if risk_probability >= 0.7:
+    risk_level = "HIGH"
+elif risk_probability >= 0.4:
+    risk_level = "MEDIUM"
+else:
+    risk_level = "LOW"
+
+print("Risk Level:", risk_level)
+
+--
+
+#data visualization
+import matplotlib.pyplot as plt
+
+data['loan_amount'].hist()
+plt.title("Loan Amount Distribution")
+plt.xlabel("Loan Amount")
+plt.ylabel("Frequency")
+plt.show()
+
+--
+
 ## Sample Output
 Columns: ['loan_amount', 'income', 'default']
 
