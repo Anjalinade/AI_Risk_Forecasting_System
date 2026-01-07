@@ -25,7 +25,7 @@ AI_Risk_Forecasting_System/
 
 ## How to Run
 1. Clone the repository:
-git clone https://github.com/Ujwala123/AI_Risk_Forecasting_System.git
+[git clone https://github.com/Ujwala123/AI_Risk_Forecasting_System.git](https://github.com/Anjalinade/AI_Risk_Forecasting_System.git)
 
 --
 
