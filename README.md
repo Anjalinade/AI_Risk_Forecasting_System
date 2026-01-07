@@ -8,13 +8,13 @@ The system leverages **Logistic Regression**, along with data preprocessing tech
 This project is modular and extensible, with separate folders for Python ML scripts (`python_ml`), a potential C engine integration (`c_engine`), and sample datasets (`data`). Anyone can clone the repository, install dependencies, and run predictions easily.
 
 ## Folder Structure
-"AI_Risk_Forecasting_System/
+'''AI_Risk_Forecasting_System/
 ├── python_ml/ # Python ML scripts
 │ └── ml_csv_test.py
 ├── c_engine/ # C engine scripts (optional integration)
 ├── data/ # Sample data files
 │ └── sample.csv
-└── README.md # This file"
+└── README.md # This file'''
 
 --
 
