@@ -8,13 +8,13 @@ The system leverages **Logistic Regression**, along with data preprocessing tech
 This project is modular and extensible, with separate folders for Python ML scripts (`python_ml`), a potential C engine integration (`c_engine`), and sample datasets (`data`). Anyone can clone the repository, install dependencies, and run predictions easily.
 
 ## Folder Structure
-AI_Risk_Forecasting_System/
+"AI_Risk_Forecasting_System/
 ├── python_ml/ # Python ML scripts
 │ └── ml_csv_test.py
 ├── c_engine/ # C engine scripts (optional integration)
 ├── data/ # Sample data files
 │ └── sample.csv
-└── README.md # This file
+└── README.md # This file"
 
 --
 
@@ -68,8 +68,11 @@ Risk Level: HIGH
 ---
 
 ## Notes
-- Accuracy is low due to the small sample dataset.
-- Warnings about `feature names` are safe and do not affect predictions.
+- Model accuracy is low due to an intentionally small sample dataset used for demonstration.
+- The goal of this project is to showcase the end-to-end ML pipeline, not production-grade performance.
+- Scikit-learn warning about feature names is expected when using NumPy arrays for prediction and does not affect results.
+
+
 
 ## Skills Demonstrated
 - Data Analysis with Pandas
